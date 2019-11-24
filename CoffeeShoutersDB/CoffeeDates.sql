@@ -6,5 +6,4 @@
 	[Venue] NVARCHAR (20) NOT NULL,
 	[Cost] Money,
 	CONSTRAINT FK_Shouter_Id FOREIGN KEY (Shouter) REFERENCES Users (Id)
-
 )
